@@ -2,15 +2,15 @@
     font-family: "Bangers", system-ui;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 body {
     font-family: "Bangers", system-ui;
     background-color: #6F4E37;
-    margin: 0 auto;  
+    margin: 0 auto;
     padding: 0 auto;
     border: solid black 1px;
-}  
+}
 
 header {
 
@@ -19,15 +19,21 @@ header {
     background-color: #4e376f;
     display: flex;
     flex-direction: row;
-    margin-bottom: 2rem;
-    border: solid black 1px;
+
+
+}
+
+main p {
+    margin: 3rem;
+    color: #808080;
+    text-align: center;
+    
+
 }
 
 .logo {
-    
+
     height: auto;
-   
-    border: solid white 1px;
 
 }
 
@@ -35,70 +41,139 @@ header {
     height: 100%;
     width: auto;
 }
+
 .titre {
     display: flex;
     align-items: center;
-    justify-content: center;  
-    width: 100%;  
-    border: solid black 1px;
-    
+    justify-content: center;
+    width: 100%;
 }
 
 h1 {
     color: #808080;
-    font-size: 4rem;
+    font-size: 7rem;
+    text-shadow: beige;
 }
 
 .menu {
-   display: flex;
-   justify-content: space-around;
-   width: 100%;
-   height: 3rem;
-   background-color: #376f4e;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 3rem;
+    background-color: #376f4e;
 }
 
 .menu ul {
     list-style-type: none;
-    
     font-size: large;
-    
-   
 }
 
 li {
     float: left;
-        display: inline;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        
-  }
-  .menu a {
+    display: inline;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
 
+.menu a {
     color: #808080;
-  }
+    text-decoration: none;
+}
 
 
-  .interface {
+.interface {
     display: flex;
     flex-wrap: wrap;
-    height: 150vh;
+}
 
-    justify-content: center;
-    align-content: space-between;
-
-
-    border: solid black 1px;
-
-
-  }
-
-  .prod1, .prod2, .prod3, .prod4, .prod5 {
-    display: flex;
-   
+.prod {
     margin: 5rem 5rem 0rem 5rem;
     height: 15rem;
-    width: 15rem;
+    width: 17rem;
+    border: solid black 2px;
+    border-radius: 15%;
+    background-color: #376f4e;
+    padding: 0.5rem;
+}
+
+.prod p {
+    text-align: center;
+    margin: 0.2rem;
+}
+
+.icone {
+
+    height: 12rem;
+    width: auto;
+    border-radius: 5%;
+}
+
+.cadreicone {
+    text-align: center;
+}
+
+.prodmenu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buy {
+    display: flex;
+    width: 4rem;
+    height: 1.5rem;
+}
+
+.prix p {
+    margin: 0;
+    padding: 0 1rem;
+}
+
+footer {
+    width: 100%;
+    height: 30vh;
+    background-color: #4e376f;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.googlemaps {
+    padding-top: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    height: 25vh;
+    width: auto;
     border: solid black 1px;
+    margin-bottom: 0 auto;
+}
 
+.adress {
+    padding-top: 5vh;
+    text-align: center;
+    border: solid black 1px;
+    vertical-align: middle;
+    margin: 0 auto;
+}
 
-  }
+.logo2 {
+    height: auto;
+    width: 13vw;
+    border: solid black 1px;
+    margin-bottom: 0 auto;
+}
+
+.logo2 img {
+    height: 100%;
+    width: auto;
+    margin-bottom: 0 auto;
+
+}
+
+.footerCGU {
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #4e376f;
+    width: 100%;
+    text-align: center;
+}
